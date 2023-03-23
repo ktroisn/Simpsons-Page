@@ -168,11 +168,9 @@ footer {
     }
 
     nav {
-        width: 96%;
-        height: 7.379999999999999rem;
+        width: 95%;
         background-color: #5690ca;
         color: white;
-        margin-left: 0.57em;
         padding-top: 17px;
     }
 
@@ -191,6 +189,7 @@ footer {
         height: 12.5rem;
         margin-left: 0.57em;
         padding-bottom: 4%;
+        margin-top: 20px;
     }
 
     .matt {
@@ -205,6 +204,22 @@ footer {
         margin: 0.13em;
         width: 97%;
         text-align: justify;
+    }
+
+    .description {
+        height: fit-content;
+        margin: 0.5em;
+        width: 95%;
+    }
+
+    .film {
+        display: inline-block;
+        border: 1px grey solid;
+        height: 229px;
+        width: 200px;
+        overflow: hidden;
+        margin-top: 18px;
+        margin-left: 15px;
     }
 
   }
