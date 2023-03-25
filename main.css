@@ -186,7 +186,7 @@ footer {
         border: 1px solid rgb(86, 144, 202);
         background-color: rgb(86, 144, 202);
         color: white;
-        height: 12.5rem;
+        height: 13.5rem;
         margin-left: 0.57em;
         padding-bottom: 4%;
         margin-top: 20px;
@@ -220,6 +220,33 @@ footer {
         overflow: hidden;
         margin-top: 18px;
         margin-left: 15px;
+    }
+
+  }
+
+  @media only screen and (max-width: 500px) {
+
+    .main-container {
+        width: 100%;
+    }
+
+    nav {
+        width: 93%;
+        font-size: 76%;
+    }
+
+    .film {
+    display: inline-block;
+    border: 1px grey solid;
+    height: 152px;
+    width: 136px;
+    overflow: hidden;
+    margin-top: 18px;
+    margin-left: 15px;
+    }
+
+    .imgfilm {
+        width: 136px;
     }
 
   }
